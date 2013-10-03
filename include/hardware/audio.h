@@ -146,6 +146,24 @@ __BEGIN_DECLS
  * or no HW sync source is used. */
 #define AUDIO_PARAMETER_STREAM_HW_AV_SYNC "hw_av_sync"
 
+/* Query voip flag */
+#define AUDIO_PARAMETER_KEY_VOIP_CHECK "voip_flag"
+
+/* Query Fluence type */
+#define AUDIO_PARAMETER_KEY_FLUENCE_TYPE "fluence"
+
+/* Query if surround sound recording is supported */
+#define AUDIO_PARAMETER_KEY_SSR "ssr"
+
+/* Query if a2dp  is supported */
+#define AUDIO_PARAMETER_KEY_HANDLE_A2DP_DEVICE "isA2dpDeviceSupported"
+
+/* Query ADSP Status */
+#define AUDIO_PARAMETER_KEY_ADSP_STATUS "ADSP_STATUS"
+
+/* Query if Proxy can be Opend */
+#define AUDIO_CAN_OPEN_PROXY "can_open_proxy"
+
 /**
  * audio codec parameters
  */
